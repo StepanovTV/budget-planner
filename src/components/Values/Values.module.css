@@ -1,0 +1,36 @@
+.content {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 24px;
+  color: green;
+  user-select: none;
+}
+
+.valLablel {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+}
+
+.valVall {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+}
+
+.redMinus {
+  composes: valVall;
+  color: red;
+}
